@@ -1,2 +1,3 @@
 # rubic-cube
-rubic's cube simulator to practice my coding skills
+
+A web-based 3D Rubik's Cube simulator built with vanilla HTML, CSS, and JavaScript. 
