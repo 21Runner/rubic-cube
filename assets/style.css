@@ -20,18 +20,39 @@ html {
     ------------------------------------------------
     */
     
-    body {
-        margin: 0;
-        /* background-color: #1E3A5F; */
-        /* color: #D1D1D1; */
-        /* font-family: "Mukta", sans-serif; */
-        font-size: 20px;
-    }
+body {
+    margin: 0;
+    /* background-color: #1E3A5F; */
+    /* color: #D1D1D1; */
+    /* font-family: "Mukta", sans-serif; */
+    font-size: 20px;
+}
 
-    .cube div {
-        background-color: orange;
-        width: 5rem;
-        height: 5rem;
-        border: 0.1rem solid gray;
-        display: inline-block;
-    }
+.cube div {
+    box-sizing: content-box;
+    background-color: orange;
+    width: 5rem;
+    height: 5rem;
+    border: 0.2rem solid gray;
+    display: inline-block;
+}
+
+.cube div.right {
+    border-right-color: yellow;
+    border-right-width: 1rem;
+}
+
+.cube div.bottom {
+    border-bottom-color: blue;
+    border-bottom-width: 1rem;
+}
+
+.cube div.left {
+    border-left-color: white;
+    border-left-width: 1rem;
+}
+
+.cube div.up {
+    border-top-color: green;
+    border-top-width: 1rem;
+}
